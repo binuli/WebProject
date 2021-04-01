@@ -1,0 +1,100 @@
+//container-styles
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: burlywood;
+  height: 250px;
+  
+
+  .container__profile {
+    // background-color: cadetblue;
+    height: 100%;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    display: flex;
+    align-items: center;
+
+    .container__profile__photo {
+      // background-color: darkslateblue;
+      width: 200px;
+      height: 200px;
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 3px solid #e16120;
+      }
+    }
+
+    .container__profile__text {
+      // background-color: deeppink;
+      height: 200px;
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 450px;
+      .container__profile__text__name {
+        // background-color: lightpink;
+        height: 30%;
+        width: 80%;
+        p {
+          font-size: 36px;
+          color: #4b9b96;
+          padding: 0%;
+          margin: 0%;
+        }
+      }
+
+      .container__profile__text__line2 {
+        // background-color: lightyellow;
+        height: 20%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        color: #E16120;
+        .container__profile__text__line2__recipes {
+          font-size: 24px;
+          p {
+            margin-right: 20px;
+          }
+        }
+        .container__profile__text__line2__subs {
+          font-size: 24px;
+
+          p {
+            margin-left: 20px;
+          }
+        }
+      }
+
+      .container__profile__text__description {
+        // background-color: yellowgreen;
+        height: 50%;
+        width: 80%;
+        font-size: 16px;
+        color: #4A4A4A;
+      }
+    }
+
+    .container__profile__buttons {
+      // background-color: lightsalmon;
+      height: 200px;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+
+      .container__profile__buttons__btn {
+        // background-color: lightgreen;
+        width: 382px;
+        height: 45px;
+        margin-left: auto;
+      }
+    }
+  }
+}
